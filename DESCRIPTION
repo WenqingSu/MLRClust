@@ -1,0 +1,17 @@
+Package: MLRClust
+Type: Package
+Title: Randomized spectral clustering for large-scale multi-layer
+        networks
+Version: 1.0
+Date: 2024-07-30
+Author: Wenqing Su
+Maintainer: Wenqing Su <suwenqing21@gmail.com>
+Description: This package implements spectral clustering for large-scale multi-layer directed and undirected networks using randomization techniques. 
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports: Rcpp, stats, Matrix
+LinkingTo: Rcpp, RcppEigen
+SystemRequirements: C++11
+RoxygenNote: 7.3.2
+NeedsCompilation: yes
+Packaged: 2024-08-01 14:59:22 UTC; 刘

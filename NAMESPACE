@@ -1,0 +1,5 @@
+useDynLib(MLRClust, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom(stats, kmeans, rbinom, rnorm, runif)
+import(Matrix)
+exportPattern("^[[:alpha:]]+")
