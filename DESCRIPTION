@@ -14,4 +14,4 @@ LinkingTo: Rcpp, RcppEigen
 SystemRequirements: C++11
 RoxygenNote: 7.3.2
 NeedsCompilation: yes
-Packaged: 2024-08-01 14:59:22 UTC; 刘
+Packaged: 2024-08-01 14:59:22 UTC; 
