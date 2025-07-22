@@ -1,0 +1,7 @@
+useDynLib(MLRClust, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom(stats, kmeans, rbinom, rnorm, runif)
+importFrom(gtools, permutations)
+importFrom(irlba, partial_eigen)
+import(Matrix)
+exportPattern("^[[:alpha:]]+")
